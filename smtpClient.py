@@ -2,7 +2,7 @@ from socket import *
 
 
 def smtp_client(port=1025, mailserver='127.0.0.1'):
-    msg = "Subject: Practice Mail\r\nFrom: njt4497@nyu.edu\r\nTo: jungniteshthapa@gmail.com\r\n\r\nMy message body , booyahh!"
+    msg = "Subject: Practice Mail\r\nFrom: njt4497@nyu.edu\r\nTo: njt4497@gmail.com\r\n\r\nMy message body , booyahh!"
     endmsg = "\r\n.\r\n"
 
     # Choose a mail server (e.g. Google mail server) if you want to verify the script beyond GradeScope
